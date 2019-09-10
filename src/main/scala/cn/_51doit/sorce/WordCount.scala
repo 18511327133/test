@@ -35,7 +35,9 @@ object WordCount {
     env.enableCheckpointing(5000)
     //设置参数。make parameters available in the web interface
     //  env.getConfig.setGlobalJobParameters(params)
-
+    /**
+      * 测试
+      */
     val properties = new Properties()
     properties.setProperty("bootstrap.servers", "zjj1:9092")
     // only required for Kafka 0.8
